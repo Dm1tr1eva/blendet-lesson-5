@@ -1,4 +1,5 @@
 const RAW_FORM_DATA_OBJECT = 'raw_form_data_object';
+const TASKS_LIST_ARR = 'tasks_list_arr'
 
 function getItem(key) {
   const value = localStorage.getItem(key);
@@ -23,4 +24,4 @@ function removeItem(key) {
   localStorage.removeItem(key);
 }
 
-export { getItem, setItem, removeItem, RAW_FORM_DATA_OBJECT };
+export { getItem, setItem, removeItem, RAW_FORM_DATA_OBJECT, TASKS_LIST_ARR };
